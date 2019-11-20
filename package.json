@@ -1,0 +1,35 @@
+{
+  "name": "smart-share",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build-dev": "npx webpack --config webpack.config.js --mode development",
+    "build-prod": "npx webpack --config webpack.config.js --mode production",
+    "watch": "npx webpack --config webpack.config.js --mode development --watch"
+  },
+  "keywords": [],
+  "author": "harry",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "babel-core": "^7.0.0-beta.3",
+    "babel-loader": "^8.0.0-beta.6",
+    "babel-preset-env": "^7.0.0-beta.3",
+    "babel-preset-es2015": "^7.0.0-beta.3",
+    "babel-preset-react": "^7.0.0-beta.3",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "reactstrap": "^8.1.1",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {}
+}
